@@ -1,0 +1,12 @@
+#!/bin/bash
+
+JETTYSHIFT_DIR=$OPENSHIFT_REPO_DIR/.jettyshift/
+
+echo
+echo "START HOOK"
+echo "=========="
+echo
+
+sh $JETTYSHIFT_DIR/scripts/setup.sh
+sh $JETTYSHIFT_DIR/scripts/build.sh
+sh $JETTYSHIFT_DIR/scripts/start.sh

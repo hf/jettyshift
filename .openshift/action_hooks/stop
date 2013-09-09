@@ -1,0 +1,5 @@
+#!/bin/bash
+
+JETTYSHIFT_DIR=$OPENSHIFT_REPO_DIR/.jettyshift/
+
+sh $JETTYSHIFT_DIR/scripts/stop.sh
